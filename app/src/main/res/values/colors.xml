@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MD3 主色（绿色系）的 tonal palette 关键色阶 -->
+    <color name="md_theme_primary">#2E6A3E</color>
+    <color name="md_theme_onPrimary">#FFFFFF</color>
+    <color name="md_theme_primaryContainer">#B1F1BB</color>
+    <color name="md_theme_onPrimaryContainer">#00210B</color>
+
+    <color name="md_theme_secondary">#52634F</color>
+    <color name="md_theme_onSecondary">#FFFFFF</color>
+    <color name="md_theme_secondaryContainer">#D5E8CF</color>
+    <color name="md_theme_onSecondaryContainer">#101F10</color>
+
+    <color name="md_theme_tertiary">#38656A</color>
+    <color name="md_theme_onTertiary">#FFFFFF</color>
+
+    <color name="md_theme_surface">#F7FBF2</color>
+    <color name="md_theme_onSurface">#191D17</color>
+    <color name="md_theme_surfaceVariant">#DEE5D8</color>
+    <color name="md_theme_onSurfaceVariant">#424940</color>
+    <color name="md_theme_surfaceContainer">#ECEFE6</color>
+    <color name="md_theme_surfaceContainerHigh">#E6EAE0</color>
+
+    <!-- 启动图标底色 -->
+    <color name="ic_launcher_background">#2E6A3E</color>
+
+    <color name="md_theme_outline">#72796F</color>
+    <color name="md_theme_outlineVariant">#C2C9BD</color>
+    <color name="md_theme_error">#BA1A1A</color>
+    <color name="md_theme_onError">#FFFFFF</color>
+
+    <!-- 代码高亮配色（亮色）：JS / JSON / XML 通用 -->
+    <color name="syn_comment">#6A737D</color>
+    <color name="syn_string">#0A7B34</color>
+    <color name="syn_number">#B0530C</color>
+    <color name="syn_keyword">#A61E9E</color>
+    <color name="syn_literal">#0550AE</color>
+    <color name="syn_cocos">#0E7490</color>
+    <color name="syn_func">#7C3AED</color>
+    <color name="syn_tag">#A61E9E</color>
+    <color name="syn_attr">#B0530C</color>
+</resources>

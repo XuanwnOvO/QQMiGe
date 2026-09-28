@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 编辑器工具栏菜单：AI 配置（齿轮）、AI 对话（机器人）、关于 -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_ai_config"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/ai_config_title"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_ai_chat"
+        android:icon="@drawable/ic_robot"
+        android:title="@string/ai_chat_title"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_about"
+        android:icon="@drawable/ic_info"
+        android:title="@string/about_menu"
+        app:showAsAction="always" />
+</menu>

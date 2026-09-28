@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="md_theme_primary">#8CD49B</color>
+    <color name="md_theme_onPrimary">#003914</color>
+    <color name="md_theme_primaryContainer">#14522A</color>
+    <color name="md_theme_onPrimaryContainer">#B1F1BB</color>
+
+    <color name="md_theme_secondary">#B9CCB4</color>
+    <color name="md_theme_onSecondary">#253424</color>
+    <color name="md_theme_secondaryContainer">#3B4B39</color>
+    <color name="md_theme_onSecondaryContainer">#D5E8CF</color>
+
+    <color name="md_theme_tertiary">#A0CFD5</color>
+    <color name="md_theme_onTertiary">#003739</color>
+
+    <color name="md_theme_surface">#111410</color>
+    <color name="md_theme_onSurface">#E1E4DB</color>
+    <color name="md_theme_surfaceVariant">#424940</color>
+    <color name="md_theme_onSurfaceVariant">#C2C9BD</color>
+    <color name="md_theme_surfaceContainer">#1D211B</color>
+    <color name="md_theme_surfaceContainerHigh">#282B26</color>
+
+    <color name="md_theme_outline">#8C9388</color>
+    <color name="md_theme_outlineVariant">#424940</color>
+    <color name="md_theme_error">#FFB4AB</color>
+    <color name="md_theme_onError">#690005</color>
+
+    <!-- 代码高亮配色（暗色）：JS / JSON / XML 通用 -->
+    <color name="syn_comment">#8B949E</color>
+    <color name="syn_string">#7EE787</color>
+    <color name="syn_number">#FFA657</color>
+    <color name="syn_keyword">#F778BA</color>
+    <color name="syn_literal">#79C0FF</color>
+    <color name="syn_cocos">#56D4DD</color>
+    <color name="syn_func">#D2A8FF</color>
+    <color name="syn_tag">#F778BA</color>
+    <color name="syn_attr">#FFA657</color>
+</resources>

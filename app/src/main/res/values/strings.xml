@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QQMiGe</string>
+
+    <!-- Root 申请页 -->
+    <string name="root_title">Root 权限申请</string>
+    <string name="root_desc">QQMiGe 需要 Root 权限来读取 QQ 小游戏数据目录并进行修改。</string>
+    <string name="root_idle">尚未申请权限</string>
+    <string name="root_request">申请 Root 权限</string>
+    <string name="root_checking">正在申请 Root 权限，请在弹窗中点击「允许」…</string>
+    <string name="root_granted">Root 权限已获取</string>
+    <string name="root_denied">Root 权限被拒绝，或设备未 Root</string>
+
+    <!-- 小游戏目录浏览 -->
+    <string name="minigame_title">小游戏目录</string>
+    <string name="minigame_refresh">刷新</string>
+    <string name="browser_empty">该目录为空</string>
+    <string name="browser_denied">无权限访问该目录（SELinux 或 uid 限制）</string>
+    <string name="browser_not_found">目录不存在或不是目录</string>
+    <string name="browser_not_root">未取得真 root（su 已降级为普通 shell），请在 KernelSU 中授权本应用</string>
+
+    <!-- 文本编辑器 -->
+    <string name="editor_untitled">QQMiGe 编辑器</string>
+    <string name="editor_no_file">未打开文件 · 点左上角打开文件列表</string>
+    <string name="editor_hint">在这里编辑文本…</string>
+    <string name="editor_save">保存</string>
+    <string name="editor_saved">已保存</string>
+    <string name="editor_save_failed">保存失败</string>
+    <string name="editor_load_failed">读取失败</string>
+    <string name="editor_binary">该文件不是文本，无法编辑</string>
+    <string name="editor_loading">正在载入…</string>
+    <string name="editor_edit">编辑</string>
+    <string name="editor_done">完成</string>
+    <string name="editor_mode_editing">编辑中 · 改完点「完成」回查看</string>
+    <string name="editor_viewer_info">%1$s · %2$s 行</string>
+    <string name="editor_viewer_truncated">%1$s · %2$s 行 · 文件过大，仅显示前 %3$s</string>
+    <string name="editor_edit_warn_title">文件较大</string>
+    <string name="editor_edit_warn_body">该文件 %1$s / %2$s 行。进入编辑后每次输入都会触发重新布局，可能非常卡顿。确定要继续吗？</string>
+    <string name="editor_edit_warn_ok">仍要编辑</string>
+    <string name="editor_edit_failed">读取失败，无法进入编辑</string>
+    <string name="editor_size_unknown">未知大小</string>
+
+    <!-- 文件列表抽屉 -->
+    <string name="drawer_open">打开文件列表</string>
+    <string name="drawer_title">文件列表</string>
+    <string name="drawer_up">上一级</string>
+
+    <!-- 项目长按菜单：备注 / 删除 -->
+    <string name="project_menu_title">项目操作</string>
+    <string name="project_menu_note">备注（重命名显示）</string>
+    <string name="project_menu_delete">删除项目</string>
+    <string name="project_note_label">备注名</string>
+    <string name="project_note_helper">留空则清除备注、恢复原始目录名</string>
+    <string name="project_note_title">设置备注 · %1$s</string>
+    <string name="project_note_save">保存</string>
+    <string name="project_note_cleared">备注已清除</string>
+    <string name="project_note_saved">备注已保存</string>
+    <string name="project_delete_title">删除项目</string>
+    <string name="project_delete_msg">确定删除「%1$s」？\n\n整个目录会被永久删除，包含其中所有游戏代码，此操作不可撤销。</string>
+    <string name="project_delete_confirm">删除</string>
+    <string name="project_delete_cancel">取消</string>
+    <string name="project_deleting">正在删除…</string>
+    <string name="project_deleted">已删除「%1$s」</string>
+    <string name="project_delete_failed">删除失败（su 未返回成功，目录可能仍存在）</string>
+    <string name="project_delete_not_root">未取得真正的 root，拒绝执行删除</string>
+
+    <!-- AI 模型配置 -->
+    <string name="ai_config_title">AI 模型配置</string>
+    <string name="ai_cfg_base">API Base URL</string>
+    <string name="ai_cfg_base_helper">OpenAI 兼容端点，填到 /v1 即可</string>
+    <string name="ai_cfg_key">API Key</string>
+    <string name="ai_cfg_model">模型名称</string>
+    <string name="ai_cfg_temp">温度</string>
+    <string name="ai_cfg_maxtoken">最大 Token</string>
+    <string name="ai_cfg_system">系统提示词</string>
+    <string name="ai_cfg_system_clear">清空</string>
+    <string name="ai_cfg_system_reset">恢复默认</string>
+    <string name="ai_cfg_system_cleared">已清空（点确定保存后生效）</string>
+    <string name="ai_cfg_system_reset_done">已填入默认提示词（点确定保存后生效）</string>
+    <string name="ai_cfg_test">测试连接</string>
+    <string name="ai_cfg_testing">正在测试…</string>
+    <string name="ai_cfg_saved">配置已保存</string>
+    <string name="ai_cfg_key_required">请先填写 API Key</string>
+
+    <!-- AI 对话 -->
+    <string name="ai_chat_title">AI 助手</string>
+    <string name="ai_send">发送</string>
+    <string name="ai_input_hint">描述要修改的内容，例如：把出牌动画速度改成 0.5 秒</string>
+    <string name="ai_clear">清空对话</string>
+    <string name="ai_role_user">我</string>
+    <string name="ai_role_assistant">AI</string>
+    <string name="ai_role_tool">工具</string>
+    <string name="ai_role_error">错误</string>
+    <string name="ai_sandbox">可写范围：%1$s</string>
+    <string name="ai_thinking">思考中…</string>
+    <string name="ai_tool_running">正在执行 %1$s…</string>
+    <string name="ai_not_configured">尚未配置 AI 模型，请先点右上角齿轮进行配置</string>
+    <string name="ai_max_rounds">已达到工具调用轮数上限，请继续追问</string>
+
+    <!-- AI 对话：新建 / 历史 -->
+    <string name="ai_new_chat">新建</string>
+    <string name="ai_history">历史</string>
+    <string name="chat_history_title">历史对话</string>
+    <string name="chat_history_empty">还没有历史对话</string>
+    <string name="chat_history_delete">删除</string>
+    <string name="chat_history_delete_title">删除这条对话？</string>
+    <string name="chat_history_delete_msg">「%1$s」将被永久删除。</string>
+    <string name="chat_history_deleted">已删除</string>
+    <string name="chat_restored">已恢复「%1$s」</string>
+    <string name="chat_untitled">未命名对话</string>
+    <string name="chat_new_started">已开始新对话</string>
+    <string name="chat_msg_count">%1$s 条消息</string>
+    <string name="chat_clear_all">清空全部</string>
+    <string name="chat_clear_title">清空全部历史对话？</string>
+    <string name="chat_clear_msg">所有历史对话都会被永久删除，此操作不可撤销。</string>
+
+    <!-- 关于页 -->
+    <string name="about_title">关于</string>
+    <string name="about_version">版本 %1$s</string>
+    <string name="about_desc">基于 Root 权限的 QQ 小游戏代码查看与修改工具，支持文件浏览、语法高亮编辑与 AI 辅助改码。</string>
+    <string name="about_section_dev">开发者</string>
+    <string name="about_author_name">超绝小学生233</string>
+    <string name="about_section_lover">我的爱人</string>
+    <string name="about_lover_name">小小宣</string>
+    <string name="about_lover_tag">作者的爱人</string>
+    <string name="about_section_group">交流群</string>
+    <string name="about_group_name">QQ 交流群</string>
+    <string name="about_group_icon">群</string>
+    <string name="about_join_group">一键加群</string>
+    <string name="about_add_friend">加好友</string>
+    <string name="about_section_refs">引用的开源仓库</string>
+    <string name="about_refs_desc">以下为本项目实际依赖的开源项目，点击可跳转对应 GitHub 仓库。</string>
+    <string name="about_qq_format">QQ：%1$s</string>
+    <string name="about_avatar_refreshing">正在刷新头像…</string>
+    <string name="about_avatar_refreshed">头像已更新</string>
+    <string name="about_avatar_failed">头像获取失败（%1$s）</string>
+    <string name="about_jump_qq">正在打开 %1$s 的 QQ 资料卡…</string>
+    <string name="about_jump_group">正在打开群 %1$s …</string>
+    <string name="about_open_ref">正在打开 %1$s …</string>
+    <string name="about_copy_fallback">无法打开 QQ，已复制号码：%1$s</string>
+    <string name="about_footer">QQMiGe · 仅供学习交流使用</string>
+    <string name="about_menu">关于</string>
+</resources>
